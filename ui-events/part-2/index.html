@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>UI Events - Part 2 | Editable List</title>
+
+        <style>
+            body {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                color: #333;
+                padding: 0 20%;
+            }
+
+            li input {
+                display: none;
+            }
+
+            li.editing span {
+                display: none;
+            }
+
+            li.editing input {
+                display: initial;
+            }
+        </style>
+
+        <script src="app.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <h1>Javascript Events</h1>
+        </header>
+        <main>
+            <ul id="editableList">
+                <li>
+                    <span>Apples</span>
+                    <input value="Apples">
+                </li>
+                <li>
+                    <span>Oranges</span>
+                    <input value="Oranges">
+                </li>
+                <li>
+                    <span>Bananas</span>
+                    <input value="Bananas">
+                </li>
+            </ul>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>UI Events - Part 1</title>
+        <style>
+            body
+            {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                color: #333;
+                padding: 0 20%;
+            }
+
+            img
+            {
+                width: 200px;
+            }
+
+            .hide
+            {
+                display: none;
+            }
+        </style>
+
+        <script src="app.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <h1>Javascript Events</h1>
+        </header>
+        <main>
+            <!-- <h4>Add Numbers:</h4>
+            <p>
+                <input type="number" id="numOne"> + <input type="number" id="numTwo">
+            </p>
+            <p id="result"></p> -->
+            
+
+            <h4>Pictures</h4>
+            <ul>
+                <li><a data-img="simonPic" id="simon" href="#">Simon Cowell</a></li>
+                <li><a data-img="brucePic" id="bruce" href="#">Bruce Willis</a></li>
+                <li><a data-img="benPic"   id="ben"   href="#">Ben Carson</a></li>
+            </ul>
+            
+            <img class="hide" id="simonPic"
+                src="http://upload.wikimedia.org/wikipedia/commons/a/aa/Simon_Cowell_in_December_2011.jpg">
+            <img class="hide" id="brucePic"
+                src="http://upload.wikimedia.org/wikipedia/commons/0/03/Bruce_Willis_by_Gage_Skidmore.jpg">
+            <img class="hide" id="benPic"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Ben_Carson_by_Skidmore_with_lighting_correction.jpg/220px-Ben_Carson_by_Skidmore_with_lighting_correction.jpg">
+        </main>
+    </body>
+</html>
