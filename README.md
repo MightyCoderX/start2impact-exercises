@@ -18,3 +18,6 @@ Some simple demonstrations of JavaScript's UI Events
 
 1) [Image Toggling](https://mightycoderx.github.io/start2impact-exercises/ui-events/part-1/)
 2) [Editable List](https://mightycoderx.github.io/start2impact-exercises/ui-events/part-2/)
+
+## [fibonacci-with-recursion](https://mightycoderx.github.io/start2impact-exercises/fibonacci-with-recursion/)
+A basic UI just to better show the fibonacci calculation using a recursive function
