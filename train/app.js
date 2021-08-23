@@ -18,10 +18,10 @@ class Train
 }
 
 const train = new Train('Tom');
-console.log(train);
+console.log(train.isRunning);
 
 train.depart();
-console.log(train);
+console.log(train.isRunning);
 
 train.stop();
-console.log(train);
+console.log(train.isRunning);
