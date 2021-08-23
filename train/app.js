@@ -15,13 +15,18 @@ class Train
     {
         this.isRunning = false;
     }
+
+    toString()
+    {
+        return `${this.name} is ${this.isRunning ? '' : 'not'} running`;
+    }
 }
 
 const train = new Train('Tom');
-console.log(train.isRunning);
+console.log({...train});
 
 train.depart();
-console.log(train.isRunning);
+console.log({...train});
 
 train.stop();
-console.log(train.isRunning);
+console.log({...train});
