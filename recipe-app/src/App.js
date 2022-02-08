@@ -8,7 +8,6 @@ const App = () =>
 {
     const APP_ID = 'c089caf1';
     const APP_KEY = env.APP_KEY;
-    
 
     const [recipes, setRecipes] = useState([]);
     const [search, setSearch] = useState('');
