@@ -1,5 +1,5 @@
 # start2impact-exercises
-A repository to store all my star2impact exercises
+A repository to store all my start2impact exercises
 
 ## [calculator](https://mightycoderx.github.io/start2impact-exercises/calculator/)
 A calculator made by following through [Build A Calculator With JavaScript Tutorial](https://www.youtube.com/watch?v=j59qQ7YWLxw) by Web Dev Simplified
